@@ -1,5 +1,5 @@
 {% set name = "opentelemetry-instrumentation-milvus" %}
-{% set version = "0.49.2" %}
+{% set version = "0.49.3" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/opentelemetry_instrumentation_milvus-{{ version }}.tar.gz
-  sha256: d16c3b3634409c116dd3a91f80864b3c6d3a68ada887c19f219aedc983557a91
+  sha256: 771cb8d8f7dc485317b928d47bbd6e554041311fcaabb29be330d70c78558460
 
 build:
   noarch: python

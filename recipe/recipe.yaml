@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: opentelemetry-instrumentation-milvus
-  version: "0.62.4"
+  version: "0.63.0"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/opentelemetry_instrumentation_milvus-${{ version }}.tar.gz
-  sha256: 05644ad5f8e55be30b063f3fd44ae2c6dad3f49f578b029634318f0e613e7322
+  sha256: 6c30ff91bc147db10aee68c8cf7fc7b9862d8e692d03d6c08d26177033c714aa
 
 build:
   number: 0
